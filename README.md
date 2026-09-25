@@ -16,3 +16,15 @@ python3 -m http.server -d site 8000
 ```
 
 Products are defined in the `products` array in `site/script.js`.
+
+## Paper Trader
+
+A browser-based trading simulator, in `trading/`:
+
+- Five fictional symbols with randomly generated prices that update every second
+- Live price chart for the selected symbol
+- Market buy/sell orders against $10,000 of fake cash (no short selling)
+- Positions with average cost and unrealized P&L, plus trade history
+- Account saved in `localStorage`; "Reset account" starts over
+
+Open `trading/index.html`, or `python3 -m http.server -d trading 8001`.

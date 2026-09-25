@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paper Trader</title>
+  <meta name="description" content="Practice trading with simulated prices and fake money.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="notice" role="note">Simulation only. Prices are randomly generated and no real money is involved.</div>
+
+  <header class="top">
+    <h1>Paper Trader</h1>
+    <div class="stats">
+      <div><span class="label">Cash</span><span id="cash" class="value">—</span></div>
+      <div><span class="label">Positions</span><span id="positions-value" class="value">—</span></div>
+      <div><span class="label">Total equity</span><span id="equity" class="value">—</span></div>
+      <div><span class="label">All-time P&amp;L</span><span id="pnl" class="value">—</span></div>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel watchlist">
+      <h2>Market</h2>
+      <table>
+        <thead><tr><th>Symbol</th><th class="num">Price</th><th class="num">Change</th></tr></thead>
+        <tbody id="watchlist"></tbody>
+      </table>
+    </section>
+
+    <section class="panel chart-panel">
+      <div class="chart-head">
+        <h2 id="chart-title">—</h2>
+        <span id="chart-price" class="chart-price">—</span>
+      </div>
+      <canvas id="chart" height="220" aria-label="Price chart for the selected symbol" role="img"></canvas>
+
+      <form id="order-form" class="order">
+        <div class="side" role="radiogroup" aria-label="Order side">
+          <label><input type="radio" name="side" value="buy" checked> Buy</label>
+          <label><input type="radio" name="side" value="sell"> Sell</label>
+        </div>
+        <label class="qty">Quantity
+          <input type="number" id="qty" min="1" step="1" value="10" required>
+        </label>
+        <div class="estimate">Est. <span id="estimate">—</span></div>
+        <button type="submit" class="btn" id="submit">Place market order</button>
+        <p id="order-msg" class="order-msg" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Positions</h2>
+      <table>
+        <thead><tr><th>Symbol</th><th class="num">Qty</th><th class="num">Avg cost</th><th class="num">Value</th><th class="num">Unrealized</th></tr></thead>
+        <tbody id="positions"></tbody>
+      </table>
+      <p id="no-positions" class="empty">No open positions.</p>
+    </section>
+
+    <section class="panel">
+      <div class="history-head">
+        <h2>Trade history</h2>
+        <button type="button" class="btn btn--ghost" id="reset">Reset account</button>
+      </div>
+      <table>
+        <thead><tr><th>Time</th><th>Side</th><th>Symbol</th><th class="num">Qty</th><th class="num">Price</th></tr></thead>
+        <tbody id="history"></tbody>
+      </table>
+      <p id="no-history" class="empty">No trades yet.</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

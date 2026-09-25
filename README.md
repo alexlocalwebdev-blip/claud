@@ -1,4 +1,6 @@
-# claud
+# Claude Test
+
+Simple project for Claude Code cloud sessions.
 
 ## Cloud Nine Vapes
 

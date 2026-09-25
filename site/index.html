@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Nine Vapes</title>
+  <meta name="description" content="Vape devices, pods and e-liquids for adult smokers looking for an alternative.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="warning-bar" role="note">
+    WARNING: This product contains nicotine. Nicotine is an addictive chemical.
+  </div>
+
+  <div id="age-gate" class="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-gate-title" hidden>
+    <div class="age-gate__box">
+      <h2 id="age-gate-title">Are you of legal age?</h2>
+      <p>This site sells nicotine products. You must be 21 or older to enter.</p>
+      <div class="age-gate__actions">
+        <button type="button" class="btn btn--primary" id="age-yes">I am 21 or older</button>
+        <button type="button" class="btn btn--ghost" id="age-no">I am under 21</button>
+      </div>
+      <p class="age-gate__denied" id="age-denied" hidden>Sorry, you can't access this site.</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a href="#" class="logo">Cloud Nine <span>Vapes</span></a>
+    <nav>
+      <ul>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why">Why us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Switching from smoking?</h1>
+      <p>Quality devices, pods and e-liquids, with staff who'll help you find the right setup.</p>
+      <a href="#products" class="btn btn--primary">Browse products</a>
+    </section>
+
+    <section id="products" class="products">
+      <h2>Products</h2>
+      <div class="filters" role="group" aria-label="Filter products">
+        <button type="button" class="filter is-active" data-filter="all">All</button>
+        <button type="button" class="filter" data-filter="device">Devices</button>
+        <button type="button" class="filter" data-filter="pod">Pods</button>
+        <button type="button" class="filter" data-filter="liquid">E-liquids</button>
+      </div>
+      <ul class="product-grid" id="product-grid"></ul>
+    </section>
+
+    <section id="why" class="why">
+      <h2>Why shop with us</h2>
+      <div class="why-grid">
+        <div><h3>Genuine stock</h3><p>Every product comes from authorised distributors.</p></div>
+        <div><h3>ID checked</h3><p>We verify age on every order and at the counter.</p></div>
+        <div><h3>Real advice</h3><p>Not sure where to start? Ask us about nicotine strengths and devices.</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Visit us</h2>
+      <p>123 Example Street &middot; Open Mon–Sat, 10am–7pm</p>
+      <p><a href="mailto:hello@example.com">hello@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Sale of nicotine products to anyone under 21 is prohibited. Not intended for non-smokers, pregnant or breastfeeding women.</p>
+    <p>&copy; <span id="year"></span> Cloud Nine Vapes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

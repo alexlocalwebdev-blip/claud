@@ -63,3 +63,31 @@ Approximate payout at those prices: about +480 on three legs.
 - **Chalk card:** Derrick Henry + Kyren Williams + Saquon Barkley. Roughly +300.
 
 *Anytime TD props lose more often than they win. These are usage- and matchup-based edges, not guarantees.*
+
+---
+
+## 5-Leg Player Parlay (added 3:55pm ET Sunday)
+
+| Leg | Player | Prop | Price seen | Game |
+|-----|--------|------|-----------|------|
+| 1 | Derrick Henry, RB, Ravens | Anytime TD | -225 | Ravens vs Cowboys, 4:25 ET |
+| 2 | CeeDee Lamb, WR, Cowboys | Anytime TD | about +120 | Ravens vs Cowboys, 4:25 ET |
+| 3 | Davante Adams, WR, Rams | Anytime TD | +110 | Rams at Broncos, 8:20 ET |
+| 4 | Kyren Williams, RB, Rams | Anytime TD | -105 | Rams at Broncos, 8:20 ET |
+| 5 | Saquon Barkley, RB, Eagles | Anytime TD | -110 | Eagles at Bears, Mon 8:15 ET |
+
+Approximate payout at those prices: about +2,300 to +2,400 (a $10 bet returns roughly $240).
+
+**Why these five**
+- Henry and Lamb come from the highest-total game of the week (52.5). Henry owns 85%+ of the Ravens' carries inside the 5 against the league's worst run defense. Lamb is Dak's top red-zone target, scored twice last week, and Dallas will be throwing to keep pace. Both legs benefit if the game turns into the expected shootout.
+- Adams and Kyren Williams are the Rams' two red-zone options with Puka Nacua doubtful. Adams had 195 yards and 2 TDs last week without Nacua. Denver allows 157.5 rushing yards per game (29th), and Williams is the goal-line back who has scored in both games.
+- Barkley is fully healthy, the Bears are 22nd against the run, and Chicago starts Case Keenum with Caleb Williams out. Philadelphia will run to protect a lead.
+
+**If a leg's price is bad at your book, swap in:**
+- Jalen Hurts anytime TD (about +140) for Lamb, if you want a lower-variance MNF pairing.
+- Lamar Jackson OVER 237.5 passing yards for Lamb, if you want a yardage leg instead of a second TD prop from Rio.
+- Mark Andrews anytime TD (about +125) for Kyren Williams.
+
+**Safer 5-leg (lower payout, roughly +700):** Henry, Kyren Williams, Barkley, Christian McCaffrey (-204, already in progress), plus Lamar Jackson OVER 237.5 passing yards.
+
+*Five-leg parlays hit rarely even with good legs. Size the bet accordingly.*

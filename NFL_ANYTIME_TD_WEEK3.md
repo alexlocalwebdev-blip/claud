@@ -91,3 +91,19 @@ Approximate payout at those prices: about +2,300 to +2,400 (a $10 bet returns ro
 **Safer 5-leg (lower payout, roughly +700):** Henry, Kyren Williams, Barkley, Christian McCaffrey (-204, already in progress), plus Lamar Jackson OVER 237.5 passing yards.
 
 *Five-leg parlays hit rarely even with good legs. Size the bet accordingly.*
+
+---
+
+## 5-Leg Player Parlay — Late Afternoon Window (2:05 / 2:25 MT)
+
+| Leg | Player | Prop | Price seen | Game |
+|-----|--------|------|-----------|------|
+| 1 | Derrick Henry, RB, Ravens | Anytime TD | -225 | Ravens vs Cowboys, 2:25 MT |
+| 2 | CeeDee Lamb, WR, Cowboys | Anytime TD | about +120 | Ravens vs Cowboys, 2:25 MT |
+| 3 | Christian McCaffrey, RB, 49ers | Anytime TD | -204 | Cardinals at 49ers, 2:05 MT |
+| 4 | Bucky Irving, RB, Buccaneers | Anytime TD | about +140 | Vikings at Buccaneers, 2:05 MT |
+| 5 | Ashton Jeanty, RB, Raiders | Anytime TD | +104 | Raiders at Saints, 2:25 MT |
+
+Approximate payout: about +2,200.
+
+Swaps: Aaron Jones (about +125) or Mark Andrews (about +125) for Jeanty; Trey McBride (+170) for Irving.
